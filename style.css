@@ -1,0 +1,46 @@
+:root {
+--Light-gray: hsl(212, 45%, 89%);
+ --Grayish-blue: hsl(220, 15%, 55%) ;
+ --Dark-blue: hsl(218, 44%, 22%);
+}
+body {
+    font-family: "Outfit", sans-serif;
+    background-color: var(--Light-gray);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+* {
+    box-sizing: border-box;
+}
+main {
+    display: flex;
+    flex-direction: column;
+    width: 320px;
+    height: 497px;
+    border-radius: 20px;
+    align-items: center;
+    justify-content: space-around;
+    background-color: white;
+    text-align: center;
+    padding: 16px;
+}
+img {
+    width: 288px;
+    height: 288px;
+    border-radius: 10px;
+}
+.p1 {
+    color: var(--Dark-blue);
+    margin-top: 0px;
+    font-size: 22px;
+    font-weight: 700;
+}
+.p2 {
+    color:var(--Grayish-blue);
+    font-size: 15px;
+    margin: 0px;
+    padding: 16px;
+}
+
